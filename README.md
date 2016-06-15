@@ -11,7 +11,7 @@ The scripts do not check the margin of error to determine whether the output is 
 
 The algorithm introduces a potential source of inaccuracy by assigning the households to split census tracts on the basis of area.  This assumes that the households are evenly distributed within each census tract, but that is not always the case.  For example, a tract with 75% of its area in City Council District A and 25% in District B would have 75% of its households assigned to District A, but if there is a large apartment building in the District B part of the tract, it could contain over 50% of the households.
 
-The output is a CSV file with four columns, as in the following example:
+Each script outputs to standard out in CSV format with four columns, as in the following example (headers added):
 
 Council District | Total Households | Households without a vehicle | Percent
 --- | --- | --- | ---
