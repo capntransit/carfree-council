@@ -15,4 +15,5 @@ The output is a CSV file with four columns, as in the following example:
 
 Council District | Total Households | Households without a vehicle | Percent
 --- | --- | --- | ---
-1 | 63808 | 
+1 | 85357 | 63808 | 0.748
+2 | 92448 | 73659 | 0.797
