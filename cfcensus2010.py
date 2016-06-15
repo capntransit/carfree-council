@@ -61,7 +61,7 @@ for (t, c) in councilData.items():
 for (d) in sorted(councilDistricts, key=int):
     print (','.join([
                 d,
-                str(int(noVeh[d])),
                 str(int(total[d])),
+                str(int(noVeh[d])),
                 str(round((noVeh[d] / total[d]), 3))
                 ]))
